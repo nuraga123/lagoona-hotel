@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+@font-face {
+    font-family: Muller;
+    src: url(./fontsMuller/MullerMedium.ttf);
+    font-weight: bold;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+    font-family: Muller;
+    src: url(./fontsMuller/MullerLight.ttf);
+    font-weight: normal;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+    background: #E5E5E5;
+    display: flex;
+    justify-content: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.main__contayner1 {
+    width: 550px;
+    position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+.main__img1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.img1__title {
+    position: absolute;
+    width: 300px;
+    height: 80px;
+    left: 40px;
+    top: 0px;
+    font-family: Muller;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.img1__price {
+    position: absolute;
+    width: 115px;
+    height: 20px;
+    left: 40px;
+    top: 135px;
+    font-family: Muller;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.details {
+    position: absolute;
+    left: 35px;
+    top: 170px;
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #CC9933;
+    margin: 7px;
+    align-items: center;
+}
+
+.img1__strelka {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 130px;
+    top: 180px;
+    border-bottom: 2px solid #CC9933;
+    border-right: 2px solid #CC9933;
+    box-sizing: border-box;
+    transform: rotate(-45deg);
+    
 }
