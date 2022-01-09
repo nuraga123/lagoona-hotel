@@ -1,0 +1,100 @@
+.main {
+    display: flex;
+}
+
+.title {
+    font-family: Muller;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 40px;
+    color: #333333;
+    margin-left: 40px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.main__contayner3 {
+    width: 573px;
+    height: 540px;
+    position: relative;
+    margin:  130px 0px 23px 23px;
+}
+
+.main__img3 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px; 
+}
+
+.img1__title3 {
+    font-family: Muller;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin: 211px 234px 149px 40px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.img1__price3 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-family: Muller;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+    opacity: 0.8;
+    margin: 406px 387px 104px 40px;
+}
+
+.details3 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    color: #CC9933;
+    margin: 7px;
+    align-items: center;
+    margin: 483px 446px 41px 40px;
+}
+
+.img1__strelka3 {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 0px;
+    top: 0px;
+    border-bottom: 2px solid #CC9933;
+    border-right: 2px solid #CC9933;
+    box-sizing: border-box;
+    transform: rotate(-45deg);
+    margin: 485.5px 432px 40px 128px;
+}
+
+.main__text {
+    width: 888px;
+    height: 180px;
+    font-family: Muller;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 200%;
+    color: #000000;
+}
+
+
+
+
+
