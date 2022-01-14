@@ -1,0 +1,7 @@
+.servis__main {
+    border-radius: 15px 15px 0px 0px;
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
