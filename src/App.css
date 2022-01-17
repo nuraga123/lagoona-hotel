@@ -1,22 +1,30 @@
+/**
+    Подключить шрифты, как в файле "/public/assets/fonts/stylesheet.css" 
+    и после этого удалить неиспользуемые шрифты и этот css файл
+*/
 @font-face {
     font-family: Muller;
-    src: url(./fontsMuller/MullerMedium.ttf);
-    font-weight: bold;
+    src: url('/public/assets/fonts/MullerBold.ttf') format('truetype');
+    font-weight: bold; 
+    font-style: normal;
 }
 
 @font-face {
     font-family: Muller;
-    src: url(./fontsMuller/MullerLight.ttf);
+    src: url('/public/assets/fonts/MullerRegular.ttf') format('truetype');
     font-weight: normal;
+    font-style: normal;
 }
 
 body {
     background: #E5E5E5;
     display: flex;
     justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 
-.servis {
+.service {
     display: flex;
     justify-content: space-between;
 }

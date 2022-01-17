@@ -1,0 +1,54 @@
+.header-lagoona {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+.header-lagoona__content {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    background-color: #F0BF5F;
+    border-radius: 15px;
+}
+
+.logo__wrapper-title {
+    display: flex;
+    padding: 5px 0px 5px 23px;
+}
+
+.logo__title-image {
+    width: 139px;
+    height: 40px;
+}
+
+.logo__strip {
+    margin-left: 6px;
+    margin-right: 12px;
+    margin-top: 2px;
+    width: 1px;
+    height: 38px;
+    background-color:#F5D494;
+}
+
+.phone {
+    align-items: center;
+    display: flex;
+    margin-left: 40px;
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #666666;
+}
+
+.personal-area__title {
+    font-family: Muller;
+    color: #CC9933;
+    margin: 0px 7px;
+
+}

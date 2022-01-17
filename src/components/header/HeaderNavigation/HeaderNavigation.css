@@ -1,0 +1,38 @@
+.navigation {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    margin-top: 30px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    width: fit-content;
+}
+
+.navigation-list {
+    margin: 27px 11px 27px 45px;
+    padding: 0;
+}
+
+.navigation-list__item {
+    display: inline-block;
+    font-family: Muller;
+    color: #666666; 
+    margin-right: 45px;        
+}
+
+.navigation__strip {
+    margin: 10px 57px 10px 0px;
+    width: 1px;
+    height: 50px;
+    background:  #E1E1E1;
+}
+
+.navigation__text {
+    border-radius: 10px;
+    border:1px solid #CC9933;
+    padding: 13px 20px;
+    text-align: center;
+    color: #CC9933;
+    font-family: Muller;
+    margin: 10px 40px 10px 0;
+}
