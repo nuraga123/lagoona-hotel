@@ -1,0 +1,42 @@
+.list-rooms {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1169px;
+    justify-content: space-between;
+}
+
+.rooms-catalog {
+    width: 373px;
+    height: 440px;
+    border-radius: 15px;
+}
+
+.rooms-catalog__img {
+    position: absolute;
+    width: 373px;
+    height: 440px;
+    border-radius: 15px;
+}
+
+.rooms-catalog__pointer {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    left: 248px;
+    top: 14px;
+    border-bottom: 2px solid #FFFFFF;;
+    border-right: 2px solid #FFFFFF;;
+    box-sizing: border-box;
+    transform: rotate(-45deg);
+}
+
+.rooms-catalog__title {
+    position: absolute;
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 200%;
+    color: #FFFFFF;
+    margin:  373px 69px 27px 54px;
+}

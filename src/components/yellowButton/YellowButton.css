@@ -1,0 +1,10 @@
+.yellow-button {
+    border-radius: 10px;
+    border: 1px solid #CC9933;
+    padding: 13px 20px;
+    text-align: center;
+    color: #CC9933;
+    font-family: Muller;
+    width: max-content;
+    font-weight: 500;   
+}

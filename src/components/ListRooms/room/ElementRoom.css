@@ -1,0 +1,56 @@
+.placement {
+    width: 374px;
+    height: 440px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    margin-bottom: 23px;
+}
+
+.placement__img {
+    width: 374px;
+    height: 217px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.placement__title {
+    display: flex;
+    align-items: flex-end;
+    margin: 36px 0px 16px 45px;
+}
+
+.placement__content {
+    display: block;
+}
+
+.placement__title-limpid {
+    font-family: Muller;
+    color: #999999;
+}
+
+.placement__title-bolder {
+    font-family: Muller;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0px 4px;
+}
+
+.placement__title-normal {
+    font-family: Muller;
+}
+
+.list-stars {
+    margin-left: 43px;
+}
+
+.star {
+    margin-right: 6px;
+}
+
+.placement__subtitle {
+    display: grid;
+    margin-left: 45px;
+    margin-top: 16px;
+    margin-bottom: 20px;
+    grid-gap: 16px;
+}
