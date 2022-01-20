@@ -2,20 +2,16 @@ import React from "react";
 import './SectionService.css';
 import serviceElement from "../SectionService/serviceElement";
 import ContainerService from "../SectionService/ContainerService/ContainerService";
+import Heading from "../Heading/Heading";
 
 const SectionService = () => {
 
   return(
     <div>
-      <h1 className="title">
-        Услуги
-      </h1>
+      <Heading content="Услуги"/>        
       <div className="service">
         {serviceElement.map(item => (
-          <ContainerService
-            img={item.img} 
-            title={item.title}
-            text={item.text}
+          <ContainerService {...item}
           />
         ))}
       </div>
