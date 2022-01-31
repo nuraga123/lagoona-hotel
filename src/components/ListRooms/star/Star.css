@@ -1,7 +1,8 @@
-.list-stars {
-    margin-left: 43px;
-}
-
 .star {
     margin-right: 6px;
+    color: #E6E6E6;
+}
+
+.star--active {
+    color: #E9CE93;
 }

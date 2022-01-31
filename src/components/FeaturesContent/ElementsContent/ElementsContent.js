@@ -5,7 +5,7 @@ const ElementContent = ({
   title, img, price, details, size
 }) => {
     return (
-      <div className={ `element-content--${ size }` }>
+      <div className={`element-contnent element-content--${ size }`}>
         <img className='element-content__img' src={ img } alt="maldiv" />
         <h2 className={ `element-content__title--${ size }` }>{ title }</h2>
         <span className={ `element-content__price--${ size }` }>{ price }</span>

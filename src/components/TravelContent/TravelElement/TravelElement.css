@@ -1,0 +1,46 @@
+.travel-content__navigations {
+    display: flex;
+    justify-content: space-between;
+}
+
+.travel-content__navigation-filter {
+    width: min-content;
+    height: 43px;
+    display: flex;
+    margin: 28px 0px;
+    align-items: end;
+    justify-content: space-around;
+}
+
+.navigation-filter__main {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation-filter__top-text {
+    margin-bottom: 15px;
+    font-family: Muller;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.navigation-filter__button-text {
+    font-family: Muller;
+    margin-right: 26px;
+    color: #000000;
+    width: max-content;
+}
+
+
+.navigation-filter__img {
+    width: min-content;
+    height: min-content;
+}
+
+.navigation-filter__strip {
+    margin: 28px 20px;
+}
+
+
+

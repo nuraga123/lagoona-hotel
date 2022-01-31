@@ -1,4 +1,6 @@
 import React from "react";
+import NavigationStrip from "../../navigationStrip/NavigationStrip";
+import YellowButton from "../../YellowButton/YellowButton";
 import "./HeaderNavigation.css";
 
 function HeaderNavigation () {
@@ -12,10 +14,17 @@ function HeaderNavigation () {
         <li className="navigation-list__item">Блог</li>
         <li className="navigation-list__item">Контакты</li>
       </ul>
-
-      <div className="navigation__strip"></div>
-      <div className="navigation__text">Хочу тур</div>
-      <div className="navigation__text">Обратный звонок</div>
+      <NavigationStrip/>
+      <div className="navigation__button">
+        <YellowButton 
+          text='Хочу тур'
+          size={"yellow-button"}
+        />
+        <YellowButton 
+          text='Обратный звонок'
+          size={"yellow-button"}
+        />
+      </div>
     </div>
   );
 }

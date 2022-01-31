@@ -1,4 +1,6 @@
 import React from "react";
+import PersonalArea from "../../PersonalArea/PersonalArea";
+import TelephoneNumber from "../../TelephoneNumber/TelephoneNumber";
 import './HeaderLagoona.css';
 
 function HeaderLagoona () {
@@ -24,22 +26,13 @@ function HeaderLagoona () {
           />
         </div>
 
-        <span className="phone">
-          +7 495 322 54 48
-        </span>
-      </div>
-
-      <div className="personal-area">
-        <img 
-          className="ringht-arrow" 
-          src="/assets/images/header/ringht-arrow.svg" 
-          alt="ringht" 
+        <TelephoneNumber 
+          number="+7 495 322 54 48"
+          size={"phone"}
         />
-        <span className="personal-area__title">
-          Личный кабинет
-        </span>
-      </div>
 
+      </div>
+      <PersonalArea/>
     </div>
   );
 };

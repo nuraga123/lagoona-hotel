@@ -1,0 +1,33 @@
+.personal-area {
+    color: #CC9933;
+    cursor: pointer;
+}
+
+.personal-area:focus {
+    color: #CC9933;
+    cursor: pointer;
+    border: 1px solid #CC9933;
+}
+
+.personal-area:active {
+    color: #A47312;
+    cursor: pointer;
+}
+
+.personal-area__title {
+    font-family: Muller;
+    margin: 0px 7px;
+}
+
+.personal-area:hover {
+    color: #E9C479;
+    transition: all .2s ease-in;
+    border: 1px solid #CC9933;
+    padding: 5px;
+}
+
+.ringht-arrow:hover {
+    color: #E9C479;
+    transition: all .2s ease-in;
+}
+

@@ -1,11 +1,10 @@
 import React from "react";
 import "./ElementRoom.css";
-import Stars from "../star/Stars"
-import StarsNo from "../star/StarsNo"
-import YellowButton from "../../yellowButton/YellowButton";
+import YellowButton from "../../YellowButton/YellowButton";
+import ListStars from "../ListStars/ListStars";
 
 
-const ElementRoom = ({ img, price, location }) => {
+const ElementRoom = ({ img, price, location,  rating}) => {
 
   return (
     <div className="placement">
@@ -20,15 +19,8 @@ const ElementRoom = ({ img, price, location }) => {
           <span className="placement__title-limpid">от</span>
           <span className="placement__title-bolder">{price}</span>
           <span className="placement__title-normal">/ ночь</span>
-          
-          <div className="list-stars">
-            < Stars />
-            < Stars />
-            < Stars />
-            < Stars />
-            < StarsNo />
-          </div>
-                
+    
+          <ListStars  rating={rating}/>
         </div>
 
         <div className="placement__subtitle">
@@ -38,9 +30,14 @@ const ElementRoom = ({ img, price, location }) => {
           <span className="placement__title-limpid">
             Барселона, Испания
           </span>
-          <YellowButton text="Номера"/>
+          
         </div>
-
+        <div className="button">
+          <YellowButton 
+            size={"yellow-button"}
+            text="Номера"
+          />
+        </div>
       </div>
     </div>
   )

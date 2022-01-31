@@ -1,8 +1,8 @@
 import React from "react";
 import Heading from "../Heading/Heading";
 import "./ListRooms.css";
-import ElementRoom from "./room/ElementRoom";
-import DataRoom from "./room/DataRoom"
+import ElementRoom from "./Room/ElementRoom";
+import DataRoom from "./Room/DataRoom"
 
 const ListRooms = () => {
   return(

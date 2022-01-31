@@ -1,0 +1,35 @@
+.main-contayner {
+    display: flex;
+    justify-content: space-between;
+    width: 375px;
+}
+
+
+.contayner__title {
+    font-family: Muller;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.contayner__text {
+    font-family: Muller;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+    width: 230px;
+}
+
+.contayner__text-grey {
+    color: #999999;
+}
+
+
+.contayner__strip {
+    width: 375px;
+    height: 1px;
+    background: #C4C4C4;
+    margin: 25px 0;
+}

@@ -1,10 +1,67 @@
 .yellow-button {
+    height: fit-content;
+    width: fit-content;
     border-radius: 10px;
     border: 1px solid #CC9933;
     padding: 13px 20px;
     text-align: center;
+    background: transparent;
     color: #CC9933;
     font-family: Muller;
-    width: max-content;
-    font-weight: 500;   
+    font-weight: 500;
+    margin: 0;
+    transition-property: background-color, color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    cursor: pointer;
+}
+
+.yellow-button:hover{
+    background: #CC9933;
+    color: #FFFFFF;
+}
+
+.yellow-button:focus {
+    background: #CC9933;
+    color: #FFFFFF;
+}
+
+.yellow-button:active {
+    background: #A47312;
+    color: #FFFFFF;
+}
+/* big*/
+
+.yellow-button__big {
+    height: fit-content;
+    width: fit-content;
+    border-radius: 10px;
+    border: 1px solid #CC9933;
+    padding: 27px 29px;
+    text-align: center;
+    background: transparent;
+    color: #CC9933;
+    font-family: Muller;
+    font-weight: 500;
+    margin: 0;
+    transition-property: background-color, color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.yellow-button__big:hover{
+    background: #CC9933;
+    color: #FFFFFF;
+}
+
+.yellow-button__big:focus {
+    background: #CC9933;
+    color: #FFFFFF;
+}
+
+.yellow-button__big:active {
+    background: #A47312;
+    color: #FFFFFF;
 }

@@ -1,0 +1,21 @@
+.num {
+    display: flex;
+    align-items: center;
+}
+
+.numer {
+    display: flex;
+    flex-direction: column;
+}
+
+.numbers {
+    width: 121px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid#CCCCCC;
+    font-family: Muller;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}

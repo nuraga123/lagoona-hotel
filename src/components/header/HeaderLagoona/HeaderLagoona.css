@@ -8,6 +8,7 @@
 
 .header-lagoona__content {
     display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -46,9 +47,3 @@
     color: #666666;
 }
 
-.personal-area__title {
-    font-family: Muller;
-    color: #CC9933;
-    margin: 0px 7px;
-
-}
