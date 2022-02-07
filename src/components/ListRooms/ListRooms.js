@@ -4,21 +4,20 @@ import "./ListRooms.css";
 import ElementRoom from "./Room/ElementRoom";
 import DataRoom from "./Room/DataRoom"
 
-const ListRooms = () => {
-  return(
-    <div> 
+function ListRooms() {
+  return (
+    <div>
       <Heading content="Размещение" />
       <div className="list-rooms">
-        {DataRoom.map ((item) => (
+        {DataRoom.map((item) => (
           <ElementRoom {...item} />
         ))}
-        
+
         <div className="rooms-catalog">
-          <img 
-            className="rooms-catalog__img" 
+          <img
+            className="rooms-catalog__img"
             src="/assets/images/rooms/rooms-catalog.jpg"
-            alt="catalog"
-          />
+            alt="catalog" />
           <span className="rooms-catalog__title">
             Посмотреть все варианты
             <div className="rooms-catalog__pointer"></div>
@@ -27,6 +26,6 @@ const ListRooms = () => {
       </div>
     </div>
   );
-};
+}
 
 export default ListRooms;
