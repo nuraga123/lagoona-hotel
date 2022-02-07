@@ -1,5 +1,5 @@
 import React, { useMemo } from "react";
-import Star from "../Star/Star";
+import Star from "../star/Star";
 import './ListStars.css';
 
 
