@@ -44,13 +44,13 @@ const ContactsContent = () => {
               size={"contayner__text"} 
               text={                
                 <div className="contayner-phone__text">
-                  <a href="#" className="contayner__text-yellow">
+                  <a href="lg.oona@mail.ru" className="contayner__text-yellow">
                     lg.oona@mail.ru
                   </a>
                   <span className="contayner__text-grey"> 
                     по вопросам бронирования
                   </span>
-                  <a href="#" className="contayner__text-yellow">
+                  <a href="hotels.ln@mail.ru" className="contayner__text-yellow">
                     hotels.ln@mail.ru
                   </a>
                   <span className="contayner__text-grey">
