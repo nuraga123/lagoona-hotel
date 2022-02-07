@@ -76,6 +76,7 @@ const ContactsContent = () => {
           <div className="contacts-content__img">
             <img
               src="/assets/images/contact/reception.jpg"
+              alt="lagoona"
             />
           </div>
         </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import './ContactsElements.css'
 
-const ContactsElements = ({ title, text, size, mail, phone }) => {
+const ContactsElements = ({ title, text, size}) => {
   return (
     <div className="main">
       <div className="main-contayner">

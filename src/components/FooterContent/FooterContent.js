@@ -46,6 +46,7 @@ const FooterContent = () => {
       <img 
         className="footer-content__img"
         src="/assets/images/icons/sun-grey.svg"
+        alt="lagoona"
       />
 
       {/*icons*/}
@@ -54,30 +55,35 @@ const FooterContent = () => {
         <img 
           className="footer-content__icon"
           src="/assets/images/icons/Component1.svg"
+          alt="lagoona"
         />
         
         {/*icon-2*/}
         <img 
           className="footer-content__icon"
           src="/assets/images/icons/twitter.svg"
+          alt="lagoona"
         />
         
         {/*icon-3*/}
         <img 
           className="footer-content__icon"
           src="/assets/images/icons/facebook.svg"
+          alt="lagoona"
         />
         
         {/*icon-4*/}
         <img 
           className="footer-content__icon"
           src="/assets/images/icons/vk.svg"
+          alt="lagoona"
         />
 
         {/*icon-5*/}
         <img 
           className="footer-content__icon"
           src="/assets/images/icons/instagram.svg"
+          alt="lagoona"
         />
       </div>
     </div>

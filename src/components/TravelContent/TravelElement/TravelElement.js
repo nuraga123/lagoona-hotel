@@ -30,6 +30,7 @@ const TravelElement= ({ topText, buttonText, img }) => {
         <img 
           className="navigation-filter__img"
           src={ img } 
+          alt="lagoona"
         />
 
       </div>
