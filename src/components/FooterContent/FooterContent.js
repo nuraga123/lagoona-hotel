@@ -10,7 +10,7 @@ const FooterContent = () => {
       <div className="footer-content__left-column">
         <div className="left-column">
         <p className="footer-content__text">
-          © 2012-2020 Управляющая компания Объединенной сети «Лагуна Хотелс»
+          © 2012-2022 Управляющая компания Объединенной сети «Лагуна Хотелс»
         </p>
         <p className="footer-content__text">
           Представленная на сайте информация носит справочный характер и не является публичной офертой
