@@ -3,10 +3,10 @@ import Star from "../Star/Star";
 import './ListStars.css';
 
 
-const ListStars = ({ rating }) => {
+function ListStars({ rating }) {
   const defaultList = [
-    { active: false }, 
-    { active: false }, 
+    { active: false },
+    { active: false },
     { active: false },
     { active: false },
     { active: false },
@@ -24,16 +24,15 @@ const ListStars = ({ rating }) => {
 
   return (
     <ul className="list-stars">
-      { list.map(({ active }) => {
-          return (
-            <li className="list-stars__element">
-              <Star active={active} />
-            </li>
-          )
-        })
-      }
+      {list.map(({ active }) => {
+        return (
+          <li className="list-stars__element">
+            <Star active={active} />
+          </li>
+        );
+      })}
     </ul>
   );
-};
+}
 
 export default ListStars;

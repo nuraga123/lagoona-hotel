@@ -9,7 +9,7 @@ import SectionService from "./components/SectionService/SectionService";
 import TravelContent from "./components/TravelContent/TravelContent";
 
 function App() {
-
+  
   return (
     <div>
       <Header/>

@@ -35,10 +35,10 @@ const FooterContent = () => {
           type="secondary"
         />
 
-        <a href="#" className="contayner__text-yellow">
+        <a href="lg.oona@mail.ru" className="contayner__text-yellow">
           lg.oona@mail.ru
         </a>
-        <a href="#" className="contayner__text-yellow">
+        <a href="hotels.ln@mail.ru" className="contayner__text-yellow">
           hotels.ln@mail.ru
         </a>
       </div>

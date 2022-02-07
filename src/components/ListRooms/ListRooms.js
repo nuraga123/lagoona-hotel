@@ -1,16 +1,17 @@
 import React from "react";
 import Heading from "../Heading/Heading";
 import "./ListRooms.css";
-import ElementRoom from "./Room/ElementRoom";
-import DataRoom from "./Room/DataRoom"
+import ElementRooms from "../ListRooms/Rooms/ElementRooms";
+import DataRooms from "./Rooms/DataRooms";
+
 
 function ListRooms() {
   return (
     <div>
       <Heading content="Размещение" />
       <div className="list-rooms">
-        {DataRoom.map((item) => (
-          <ElementRoom {...item} />
+        {DataRooms.map((item) => (
+          <ElementRooms {...item} />
         ))}
 
         <div className="rooms-catalog">
