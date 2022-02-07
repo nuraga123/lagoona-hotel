@@ -26,12 +26,12 @@ const ContactsContent = () => {
                 <div className="contayner-phone__text">
                   <TelephoneNumber 
                     number="+7 (499) 535-64-34"
-                    size={"phone__yellow"}
+                    type="secondary"
                   />
                   
                   <TelephoneNumber 
                     number="+7 (495) 005-05-44"
-                    size={"phone__yellow"}
+                    type="secondary"
                   />
                 </div>
               }  

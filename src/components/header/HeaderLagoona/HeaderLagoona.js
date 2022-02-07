@@ -28,7 +28,7 @@ function HeaderLagoona () {
 
         <TelephoneNumber 
           number="+7 495 322 54 48"
-          size={"phone"}
+          type="default"
         />
 
       </div>

@@ -15,11 +15,10 @@ const FooterContent = () => {
         <p className="footer-content__text">
           Представленная на сайте информация носит справочный характер и не является публичной офертой
         </p>
-        </div>      
-        <TelephoneNumber
-          size={"phone__yellow"}
-          number="Пользовательское соглашение"
-        />
+        </div>
+        <span className="contayner__text-yellow">
+          Пользовательское соглашение
+        </span>
       </div>
 
       <div className="footer-content__center-column">
@@ -28,12 +27,12 @@ const FooterContent = () => {
         </p>
         <TelephoneNumber 
           number="+7 (499) 535-64-34"
-          size={"phone__yellow"}
+          type="secondary"
         />
         
         <TelephoneNumber 
           number="+7 (495) 005-05-44"
-          size={"phone__yellow"}
+          type="secondary"
         />
 
         <a href="#" className="contayner__text-yellow">
