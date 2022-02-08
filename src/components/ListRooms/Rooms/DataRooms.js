@@ -1,7 +1,6 @@
 import "../Rooms/ElementRooms";
 
 const DataRooms = [
-
     {//1 комната
         img: "/assets/images/rooms/sunset.jpg",
         price: '4 698 р',
