@@ -2,7 +2,7 @@ import React from "react";
 import Heading from "../Heading/Heading";
 import './ContactsContent.css'
 import ContactsElements from "./ContactsElements/ContactsElements";
-import YellowButton from "../YellowButton/YellowButton";
+import YellowButton from "../yellowButton/YellowButton";
 import TelephoneNumber from "../TelephoneNumber/TelephoneNumber";
 
 const ContactsContent = () => {

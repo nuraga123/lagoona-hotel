@@ -1,7 +1,7 @@
 import React from "react";
 import './TravelContent.css';
 import TravelElement from "./TravelElement/TravelElement";
-import YellowButton from "../YellowButton/YellowButton";
+import YellowButton from "../yellowButton/YellowButton";
 import TravelNumber from "./TravelNumber/TravelNumber";
 
 const TravelContent= () => {

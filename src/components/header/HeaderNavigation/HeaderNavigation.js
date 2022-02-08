@@ -1,6 +1,6 @@
 import React from "react";
 import NavigationStrip from "../../navigationStrip/NavigationStrip";
-import YellowButton from "../../YellowButton/YellowButton";
+import YellowButton from "../../yellowButton/YellowButton";
 import "./HeaderNavigation.css";
 
 function HeaderNavigation () {

@@ -1,6 +1,6 @@
 import React from "react";
 import "./ElementRooms.css";
-import YellowButton from "../../YellowButton/YellowButton";
+import YellowButton from "../../yellowButton/YellowButton";
 import ListStars from "../ListStars/ListStars";
 
 
