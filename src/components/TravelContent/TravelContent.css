@@ -1,12 +1,8 @@
 .travel-content {
-    width: 1170px;
-    height: 274px;
-    background: #E9E9E9;
+    background: #cbcbcb;
     border-radius: 15px;
     margin: 70px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;   
+    padding: 38px 45px 71px 45px;   
 }
 
 .travel-content__title {
@@ -15,16 +11,14 @@
     font-size: 40px;
     line-height: 40px;
     font-weight: 400;
-    margin: 38px 0px 19px 40px;
+    margin-bottom: 19px;
 }
 
 .travel-content__navigation {
-    width: 1080px;
-    height: 106px;
     background: #FFFFFF;
     border-radius: 15px;
-    margin: 0px 45px 71px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    box-sizing: border-box;
 }

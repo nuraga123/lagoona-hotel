@@ -11,27 +11,24 @@ const TravelContent= () => {
         <h1 className="travel-content__title">Хочу тур</h1>
         <div className="travel-content__navigation"> 
           <TravelElement 
-            topText="Город вылета"
-            buttonText="Санкт-Петербург"
-            img={'/assets/images/travel/button-pointer.svg'}    
+            label="Город вылета"
+            id="departureCity"
+            options={[{ value: 'moscow', text: 'Москва' }, { value: 'spb', text: 'Санкт-Петербург' }]}    
           />
           <TravelElement 
-            topText="Страна"
-            buttonText="Австралия"
-            img={'/assets/images/travel/button-pointer.svg'}  
-          />
-          <TravelElement 
-            topText="Дата прибытия"
-            buttonText="18.10.2021"
-            img={'/assets/images/travel/calendar.svg'}  
+            label="Страна"
+            id="country"
+            options={[{ value: 'russia', text: 'Россия' }, { value: 'azerbaycan', text: 'Азербайджан' }]}   
           />
 
           <TravelNumber 
-            topText="Ночей"
+            label="Ночей"
+            id="nights"
           />
 
           <TravelNumber 
-            topText="Туристы"
+            label="Туристы"
+            id="tourists"
           />
 
           <YellowButton 
