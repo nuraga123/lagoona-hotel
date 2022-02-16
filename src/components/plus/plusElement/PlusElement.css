@@ -1,0 +1,24 @@
+.plus__content {
+    width: 275px;
+    height: 275px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    margin-right: 23px;
+    margin-bottom: 23px;
+}
+
+.plus__img {
+    margin: 40px 166px 10px 45px;
+}
+
+.plus__text {
+    margin: 0px 42px 41px 45px;
+    width: 188px;
+    height: 118px;
+    font-family: Muller;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 200%;
+    color: #000000;
+}

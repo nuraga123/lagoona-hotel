@@ -1,0 +1,42 @@
+.travel-content__navigations {
+    display: flex;
+    justify-content: space-between;
+}
+
+.travel-content__navigation-filter {
+    width: min-content;
+    height: 43px;
+    display: flex;
+    margin: 28px 0px;
+    align-items: end;
+    justify-content: space-around;
+}
+
+.navigation-filter__main {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation-filter__select {
+    font-family: Muller;
+    font-size: 16px;
+    line-height: 16px;
+    color: #000000;
+    padding: 5px 0;
+    border: none;
+}
+
+.navigation-filter__label {
+    font-family: Muller;
+    font-size: 12px;
+    line-height: 12px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.navigation-filter__strip {
+    margin: 28px 20px;
+}
+
+
+

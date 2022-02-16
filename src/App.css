@@ -1,85 +1,27 @@
 @font-face {
     font-family: Muller;
-    src: url(./fontsMuller/MullerMedium.ttf);
-    font-weight: bold;
+    src: url('/public/assets/fonts/MullerBold.ttf') format('truetype');
+    font-weight: bold; 
+    font-style: normal;
 }
-
+ 
 @font-face {
     font-family: Muller;
-    src: url(./fontsMuller/MullerLight.ttf);
+    src: url('/public/assets/fonts/MullerRegular.ttf') format('truetype');
     font-weight: normal;
+    font-style: normal;
 }
 
 body {
     background: #E5E5E5;
     display: flex;
     justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 
-.main__contayner1 {
-    width: 550px;
-    position: relative;
+.service {
+    display: flex;
+    justify-content: space-between;
 }
 
-.main__img1 {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    border-radius: 15px;
-}
-
-.img1__title {
-    position: absolute;
-    width: 300px;
-    height: 80px;
-    left: 40px;
-    top: 0px;
-    font-family: Muller;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    line-height: 40px;
-    color: #FFFFFF;
-}
-
-.img1__price {
-    position: absolute;
-    width: 115px;
-    height: 20px;
-    left: 40px;
-    top: 135px;
-    font-family: Muller;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 20px;
-    color: #FFFFFF;
-    opacity: 0.8;
-}
-
-.details {
-    position: absolute;
-    left: 35px;
-    top: 170px;
-    font-family: Muller;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 16px;
-    color: #CC9933;
-    margin: 7px;
-    align-items: center;
-}
-
-.img1__strelka {
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    left: 130px;
-    top: 180px;
-    border-bottom: 2px solid #CC9933;
-    border-right: 2px solid #CC9933;
-    box-sizing: border-box;
-    transform: rotate(-45deg);
-    
-}

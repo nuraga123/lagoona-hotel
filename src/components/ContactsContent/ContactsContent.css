@@ -1,0 +1,49 @@
+.contacts-content__contayner {
+    display: flex;
+    width: 1169px;
+    height: 618px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.contacts-content__contayner-size {
+    display: flex;
+    margin: 44px 44px 46px 46px;
+}
+ 
+.contacts-content__img {
+    border-radius: 10px;
+    margin-left: 50px;
+}
+
+.contacts-content__button {
+    display: flex;
+    width: 230px;
+    height: 70px;
+}
+
+.contayner-phone__text {
+    display: grid;
+}
+ 
+.contayner__text-yellow {
+    font-family: Muller;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #CC9933;
+    width: 230px;
+    text-decoration: none;
+}
+
+.contayner__text-grey {
+    color: #999999;
+    font-family: Muller;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    width: 230px;
+}

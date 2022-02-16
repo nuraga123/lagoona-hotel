@@ -1,0 +1,6 @@
+.service {
+    border-radius: 15px 15px 0px 0px;
+    display: flex;
+    width: 1192px;
+    flex-wrap: wrap;
+}

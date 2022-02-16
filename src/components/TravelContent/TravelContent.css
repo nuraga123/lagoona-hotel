@@ -1,0 +1,24 @@
+.travel-content {
+    background: #cbcbcb;
+    border-radius: 15px;
+    margin: 70px 0;
+    padding: 38px 45px 71px 45px;   
+}
+
+.travel-content__title {
+    height: 40px;
+    font-family: Muller;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 400;
+    margin-bottom: 19px;
+}
+
+.travel-content__navigation {
+    background: #FFFFFF;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
