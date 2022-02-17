@@ -4,12 +4,8 @@
 }
 
 .travel-content__navigation-filter {
-    width: min-content;
-    height: 43px;
     display: flex;
-    margin: 28px 0px;
-    align-items: end;
-    justify-content: space-around;
+    align-items: center;
 }
 
 .navigation-filter__main {
@@ -32,6 +28,7 @@
     line-height: 12px;
     color: #000000;
     margin-bottom: 5px;
+    margin-left: 4px;
 }
 
 .navigation-filter__strip {

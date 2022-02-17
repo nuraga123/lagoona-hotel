@@ -1,5 +1,5 @@
 .travel-content {
-    background: #cbcbcb;
+    background: #CCCCCC;
     border-radius: 15px;
     margin: 70px 0;
     padding: 38px 45px 71px 45px;   
@@ -19,6 +19,6 @@
     border-radius: 15px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     box-sizing: border-box;
 }

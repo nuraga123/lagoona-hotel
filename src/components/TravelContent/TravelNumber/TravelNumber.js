@@ -3,17 +3,17 @@ import './TravelNumber.css';
 import NavigationStrip from "../../navigationStrip/NavigationStrip";
 
 
-const TravelNumber = ({ label, id }) => {
+const TravelNumber = ({ label, id, type, size}) => {
   return (
     <div className="num">
-      <div className="numer">
-        <label for={id} className="navigation-filter__label"> 
+      <div className="num__title">
+        <label for={id} className="num-label"> 
           { label }
         </label>
         <input 
-          id={id}
-          className="numbers"
-          type={'number'}
+          id={ id }
+          className={`numbers--${size}`}
+          type={ type }
         />
       </div>
       <div className='navigation-filter__strip'>

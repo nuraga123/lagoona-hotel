@@ -13,7 +13,11 @@ const TravelContent= () => {
           <TravelElement 
             label="Город вылета"
             id="departureCity"
-            options={[{ value: 'moscow', text: 'Москва' }, { value: 'spb', text: 'Санкт-Петербург' }]}    
+            options={[
+              { value: 'moscow', text: 'Москва' }, 
+              { value: 'spb', text: 'Санкт-Петербург' } ,
+              { value: 'baku', text: 'Баку' }
+            ]}    
           />
           <TravelElement 
             label="Страна"
@@ -21,16 +25,27 @@ const TravelContent= () => {
             options={[{ value: 'russia', text: 'Россия' }, { value: 'azerbaycan', text: 'Азербайджан' }]}   
           />
 
+          <TravelNumber
+            label="Дата прибытия"
+            id="date"
+            type="date"
+            size={'long'}
+          />  
+
           <TravelNumber 
             label="Ночей"
             id="nights"
+            type="number"
+            size={'short'}
           />
 
           <TravelNumber 
             label="Туристы"
             id="tourists"
+            type="number"
+            size={'short'}
           />
-
+          
           <YellowButton 
             text="Найти"
             size={"yellow-button"}
