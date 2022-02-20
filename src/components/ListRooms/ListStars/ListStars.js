@@ -4,13 +4,13 @@ import './ListStars.css';
 
 
 function ListStars({ rating }) {
-  const defaultList = [
+  const defaultList = useMemo(() => [
     { active: false },
     { active: false },
     { active: false },
     { active: false },
     { active: false },
-  ];
+  ], []);
 
   const list = useMemo(() => {
     const copyDefaultList = [...defaultList];
@@ -20,7 +20,7 @@ function ListStars({ rating }) {
     }
 
     return copyDefaultList;
-  }, [rating]);
+  }, [rating, defaultList]);
 
   return (
     <ul className="list-stars">
